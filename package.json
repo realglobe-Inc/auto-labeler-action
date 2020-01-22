@@ -1,0 +1,20 @@
+{
+  "name": "auto-labeler",
+  "version": "1.0.0",
+  "description": "Apply labels to PR automatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "actions",
+    "label"
+  ],
+  "author": "realglobe, Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.1",
+    "@actions/github": "^2.0.1",
+    "minimatch": "^3.0.4"
+  }
+}

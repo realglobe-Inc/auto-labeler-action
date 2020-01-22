@@ -1,0 +1,17 @@
+name: 'Auto Labeler'
+description: 'Apply labels to PR automatically'
+inputs:
+  token:
+    description: 'github token'
+    default: ${{ github.token }}
+    required: true
+  pull_number:
+    description: 'number of pull request'
+    default: ${{ github.event.pull_request.number }}
+    required: true
+  rules:
+    description: 'path of label rule json file'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
