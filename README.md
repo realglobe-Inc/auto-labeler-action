@@ -35,7 +35,7 @@ This action apply labels to pull request by rules.
 ## Example usage
 
 ```yaml
-uses: realglobe-Inc/auto-labeler-action
+uses: realglobe-Inc/auto-labeler-action@master
 with:
   rules: '.github/data/label_rules.json'
 ```
